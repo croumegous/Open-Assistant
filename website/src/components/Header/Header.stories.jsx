@@ -1,7 +1,6 @@
+import { Header } from "./Header";
 import { SessionContext } from "next-auth/react";
 import React from "react";
-
-import { Header } from "./Header";
 
 export default {
   title: "Header/Header",

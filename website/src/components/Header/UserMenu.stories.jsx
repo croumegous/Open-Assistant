@@ -1,7 +1,6 @@
+import UserMenu from "./UserMenu";
 import { SessionContext } from "next-auth/react";
 import React from "react";
-
-import UserMenu from "./UserMenu";
 
 export default {
   title: "Header/UserMenu",

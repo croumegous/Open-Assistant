@@ -1,8 +1,6 @@
 // https://nextjs.org/docs/basic-features/layouts
-
-import type { NextPage } from "next";
-
 import { Footer } from "./Footer";
+import type { NextPage } from "next";
 import { Header } from "src/components/Header";
 
 export type NextPageWithLayout<P = unknown, IP = P> = NextPage<P, IP> & {

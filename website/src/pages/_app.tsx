@@ -1,13 +1,10 @@
-import { ChakraProvider } from "@chakra-ui/react";
-import { SessionProvider } from "next-auth/react";
-import { Inter } from "@next/font/google";
-import { extendTheme } from "@chakra-ui/react";
-import type { AppProps } from "next/app";
-
-import { NextPageWithLayout, getDefaultLayout } from "src/components/Layout";
-
 import "../styles/globals.css";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import { Inter } from "@next/font/google";
 import "focus-visible";
+import { SessionProvider } from "next-auth/react";
+import type { AppProps } from "next/app";
+import { NextPageWithLayout, getDefaultLayout } from "src/components/Layout";
 
 const inter = Inter({
   subsets: ["latin"],

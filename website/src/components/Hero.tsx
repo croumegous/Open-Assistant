@@ -1,7 +1,6 @@
-import { useId } from "react";
-import Image from "next/image";
-
 import { Container } from "./Container";
+import Image from "next/image";
+import { useId } from "react";
 
 function BackgroundIllustration(props) {
   const id = useId();

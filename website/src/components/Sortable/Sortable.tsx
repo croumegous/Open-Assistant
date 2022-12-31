@@ -1,9 +1,9 @@
-import { DndContext, PointerSensor, TouchSensor, closestCenter, useSensor, useSensors } from "@dnd-kit/core";
-import { ReactNode, useEffect, useState } from "react";
-import { SortableContext, arrayMove, verticalListSortingStrategy } from "@dnd-kit/sortable";
-import type { DragEndEvent } from "@dnd-kit/core/dist/types/events";
-import { Flex } from "@chakra-ui/react";
 import { SortableItem } from "./SortableItem";
+import { Flex } from "@chakra-ui/react";
+import { DndContext, PointerSensor, TouchSensor, closestCenter, useSensor, useSensors } from "@dnd-kit/core";
+import type { DragEndEvent } from "@dnd-kit/core/dist/types/events";
+import { SortableContext, arrayMove, verticalListSortingStrategy } from "@dnd-kit/sortable";
+import { ReactNode, useEffect, useState } from "react";
 
 export interface SortableProps {
   items: ReactNode[];
